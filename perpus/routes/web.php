@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\PustakawanController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,4 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/pustakawan', [PustakawanController::class, 'index']);
+Route::get('/', function () {
+  return view('welcome');
+});
