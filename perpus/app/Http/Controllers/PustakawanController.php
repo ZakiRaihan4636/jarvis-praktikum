@@ -9,10 +9,9 @@ class PustakawanController extends Controller
     public function index()
     {
         $data = [
-            "name" => "Muhamad Zaki Raihan",
-            "gender" => "male",
-            "address" => "Bogor",
-            "is_student" => true
+            "nama" => "Muhamad Zaki Raihan",
+            "gender" => "Laki-Laki",
+            "ship" => "Malam"
         ];
 
         return response()->json($data);
