@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\BooksController;
 use App\Http\Controllers\PustakawanController;
+use App\Models\Pustakawan;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -22,3 +24,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('/pustakawan', [PustakawanController::class, 'index']);
+
+Route::get('/books', [BooksController::class, 'index']);
