@@ -1,1 +1,0 @@
-Pada pertemuan pertama jarvis, belajar mengenai html dan css diantarnya membuat header, membuat paragraf, menambahkan gambar, membuat form, dan merubah warna pada header, mengatur radius gambar dan form, dan mengatur spacing antar elemen.
